@@ -10,6 +10,7 @@ Variables:
     og_width, og_height: width/height of the map in orginal units
     width, height: width/height of the map in unit robot length
     robot_len: length of robot
+    Following x,y are all in unit robot length
     vis[(x,y)]: visited times block (x,y)
     blocked[(x,y)]: is 1 if (x,y) is blocked, 0 otherwise
     graph[(x,y,i)]: is 1 if there is an edge from (x,y) in i direction, that is

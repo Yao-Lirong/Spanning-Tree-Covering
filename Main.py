@@ -62,14 +62,14 @@ def show_graph(map, path):
                 blockedy.append(j * map.robot_len + map.min_y)
     plt.plot(blockedx, blockedy, '.')
 
-    visx = []
-    visy = []
-    for i in range(0, map.width+1):
-        for j in range(0, map.height+1):
-            if (map.vis[(i,j)]):
-                visx.append(i * map.robot_len + map.min_x)
-                visy.append(j * map.robot_len + map.min_y)
-    plt.plot(visx, visy, '*')
+    # visx = []
+    # visy = []
+    # for i in range(0, map.width+1):
+    #     for j in range(0, map.height+1):
+    #         if (map.vis[(i,j)]):
+    #             visx.append(i * map.robot_len + map.min_x)
+    #             visy.append(j * map.robot_len + map.min_y)
+    # plt.plot(visx, visy, '*')
     
     pathx = []
     pathy = []
